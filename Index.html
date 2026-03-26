@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Don Burger — Street Food Gourmet · Bogotá</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <nav id="nav">
+    <a href="#" class="nav-logo">Don Burguer<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">Nosotros</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#lugar">El lugar</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Pedir ahora</a>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-tag">Bogota · Street Food Gourmet</div>
+      <h1 class="hero-title">
+        <span class="l1">BURGERS</span>
+        <span class="l2">DE VERDAD<em>.</em></span>
+      </h1>
+      <p class="hero-desc">Carne fresca, pan artesanal y salsas de la casa. Sin atajos, sin congelados.</p>
+      <div class="hero-ctas">
+        <a href="#menu" class="btn-yellow">Ver el menu</a>
+        <a href="#contact" class="btn-ghost-red">Hacer pedido</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hv-circle">
+        <div class="hv-emoji">🍔</div>
+        <div class="hv-ring r1"></div>
+        <div class="hv-ring r2"></div>
+      </div>
+      <div class="hv-tag ht1">Pan brioche</div>
+      <div class="hv-tag ht2">100% res</div>
+      <div class="hv-tag ht3">Salsa propia</div>
+    </div>
+  </section>
+
+  <div class="marquee-wrap">
+    <div class="marquee-inner">
+      <span>STREET FOOD</span><b>●</b>
+      <span>BURGERS GOURMET</span><b>●</b>
+      <span>BOGOTA</span><b>●</b>
+      <span>DON BURGER</span><b>●</b>
+      <span>FRESH DAILY</span><b>●</b>
+      <span>STREET FOOD</span><b>●</b>
+      <span>BURGERS GOURMET</span><b>●</b>
+      <span>BOGOTA</span><b>●</b>
+      <span>DON BURGER</span><b>●</b>
+      <span>FRESH DAILY</span><b>●</b>
+      <span>STREET FOOD</span><b>●</b>
+      <span>BURGERS GOURMET</span><b>●</b>
+    </div>
+  </div>
+
+  <section class="about" id="about">
+    <div class="about-text reveal">
+      <div class="section-tag">// Quienes somos</div>
+      <h2>No es comida<br>rapida.<br><em>Es rapido</em><br><em>y gourmet.</em></h2>
+      <p>Nacimos con una sola idea: hacer la mejor hamburguesa del barrio sin cobrar precios de restaurante fino. Carne fresca cada dia, papas al momento y salsas que no vas a encontrar en otro lado.</p>
+      <div class="about-pills">
+        <span>Sin conservantes</span>
+        <span>Carne fresca diaria</span>
+        <span>Pan artesanal</span>
+        <span>Salsas propias</span>
+      </div>
+    </div>
+    <div class="about-cards reveal" style="transition-delay:0.2s">
+      <div class="acard span2">
+        <div class="acard-n">Frescos</div>
+        <div class="acard-t">Ingredientes frescos cada dia</div>
+      </div>
+      <div class="acard">
+        <div class="acard-n">4.9</div>
+        <div class="acard-t">Calificacion promedio</div>
+      </div>
+      <div class="acard accent">
+        <div class="acard-n">100%</div>
+        <div class="acard-t">Carne de res premium</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="menu">
+    <div class="menu-head reveal">
+      <div class="section-tag">// Lo que hacemos</div>
+      <h2>El Menu<em>.</em></h2>
+      <p>Todo preparado al momento. Sin microondas.</p>
+    </div>
+    <div class="tabs reveal">
+      <button class="tab active" data-tab="burgers">Burgers</button>
+      <button class="tab" data-tab="combos">Combos</button>
+      <button class="tab" data-tab="sides">Sides</button>
+      <button class="tab" data-tab="bebidas">Bebidas</button>
+    </div>
+
+    <div class="mgrid active" id="burgers">
+      <div class="mcard reveal">
+        <div class="mcard-top"><span class="mnum">01</span><span class="mbadge">Clasico</span></div>
+        <div class="mname">La Don</div>
+        <div class="mdesc">Doble carne, queso americano, lechuga, tomate, cebolla caramelizada y salsa de la casa</div>
+        <div class="mfoot"><span class="mprice">$22.000</span><span class="mtag">Best seller</span></div>
+      </div>
+      <div class="mcard reveal" style="transition-delay:.1s">
+        <div class="mcard-top"><span class="mnum">02</span><span class="mbadge new">Nueva</span></div>
+        <div class="mname">Smoky BBQ</div>
+        <div class="mdesc">Carne premium, tocino ahumado, queso cheddar, aros de cebolla y salsa BBQ artesanal</div>
+        <div class="mfoot"><span class="mprice">$26.000</span></div>
+      </div>
+      <div class="mcard reveal" style="transition-delay:.2s">
+        <div class="mcard-top"><span class="mnum">03</span></div>
+        <div class="mname">El Callejero</div>
+        <div class="mdesc">Sencilla pero brutal. Carne jugosa, mostaza, pepinillos y cebolla. Sin rodeos.</div>
+        <div class="mfoot"><span class="mprice">$16.000</span><span class="mtag">Economica</span></div>
+      </div>
+      <div class="mcard reveal" style="transition-delay:.3s">
+        <div class="mcard-top"><span class="mnum">04</span><span class="mbadge spicy">Picante</span></div>
+        <div class="mname">La Diabla</div>
+        <div class="mdesc">Jalapeños, salsa habanero, queso pepper jack y mayo sriracha. Solo para valientes.</div>
+        <div class="mfoot"><span class="mprice">$24.000</span></div>
+      </div>
+    </div>
+
+    <div class="mgrid" id="combos">
+      <div class="mcard reveal">
+        <div class="mcard-top"><span class="mnum">01</span></div>
+        <div class="mname">Combo Clasico</div>
+        <div class="mdesc">La Don + papas fritas + gaseosa</div>
+        <div class="mfoot"><span class="mprice">$32.000</span><span class="mtag">Ahorra $4.000</span></div>
+      </div>
+      <div class="mcard reveal" style="transition-delay:.1s">
+        <div class="mcard-top"><span class="mnum">02</span><span class="mbadge">Popular</span></div>
+        <div class="mname">Combo Doble</div>
+        <div class="mdesc">2 burgers a eleccion + 2 papas + 2 gaseosas. Para compartir.</div>
+        <div class="mfoot"><span class="mprice">$58.000</span><span class="mtag">Para 2</span></div>
+      </div>
+      <div class="mcard reveal" style="transition-delay:.2s">
+        <div class="mcard-top"><span class="mnum">03</span></div>
+        <div class="mname">Combo Familiar</div>
+        <div class="mdesc">4 burgers + papas familiares + 4 bebidas</div>
+        <div class="mfoot"><span class="mprice">$110.000</span><span class="mtag">Para 4</span></div>
+      </div>
+    </div>
+
+    <div class="mgrid" id="sides">
+      <div class="mcard reveal">
+        <div class="mcard-top"><span class="mnum">01</span></div>
+        <div class="mname">Papas Fritas</div>
+        <div class="mdesc">Crujientes por fuera, suaves por dentro. Con sal marina y salsas opcionales.</div>
+        <div class="mfoot"><span class="mprice">$8.000</span></div>
+      </div>
+      <div class="mcard reveal" style="transition-delay:.1s">
+        <div class="mcard-top"><span class="mnum">02</span><span class="mbadge new">Nueva</span></div>
+        <div class="mname">Papas Rancheras</div>
+        <div class="mdesc">Con queso fundido, tocino y cebolla morada. Un nivel mas arriba.</div>
+        <div class="mfoot"><span class="mprice">$12.000</span></div>
+      </div>
+      <div class="mcard reveal" style="transition-delay:.2s">
+        <div class="mcard-top"><span class="mnum">03</span></div>
+        <div class="mname">Aros de Cebolla</div>
+        <div class="mdesc">Apanados en cerveza con dip de queso azul.</div>
+        <div class="mfoot"><span class="mprice">$10.000</span></div>
+      </div>
+    </div>
+
+    <div class="mgrid" id="bebidas">
+      <div class="mcard reveal">
+        <div class="mcard-top"><span class="mnum">01</span></div>
+        <div class="mname">Gaseosa</div>
+        <div class="mdesc">Coca-Cola, Sprite o agua. Bien fria.</div>
+        <div class="mfoot"><span class="mprice">$4.000</span></div>
+      </div>
+      <div class="mcard reveal" style="transition-delay:.1s">
+        <div class="mcard-top"><span class="mnum">02</span></div>
+        <div class="mname">Limonada de Coco</div>
+        <div class="mdesc">Limon natural, coco y hielo. La mejor compania para una burger.</div>
+        <div class="mfoot"><span class="mprice">$8.000</span></div>
+      </div>
+      <div class="mcard reveal" style="transition-delay:.2s">
+        <div class="mcard-top"><span class="mnum">03</span></div>
+        <div class="mname">Malteada</div>
+        <div class="mdesc">Chocolate, vainilla o fresa. Espesa de verdad.</div>
+        <div class="mfoot"><span class="mprice">$12.000</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lugar" id="lugar">
+    <div class="lugar-header reveal">
+      <div class="section-tag">// El ambiente</div>
+      <h2>No es solo<br>una burger<em>.</em></h2>
+    </div>
+    <div class="lugar-grid">
+      <div class="lugar-item reveal">
+        <h3>Ambiente callejero</h3>
+        <p>Plantas, luces Edison y musica que pega. Un lugar para quedarse, no solo para comer rapido.</p>
+      </div>
+      <div class="lugar-item reveal" style="transition-delay:.15s">
+        <h3>Todo al momento</h3>
+        <p>Nada sale de una bolsa congelada. Cada orden se prepara desde cero cuando la pides.</p>
+      </div>
+      <div class="lugar-item reveal" style="transition-delay:.3s">
+        <h3>En el barrio</h3>
+        <p>Un lugar para la gente del barrio. Precios justos, sabor de verdad.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-info reveal">
+      <div class="section-tag">// Encontranos</div>
+      <h2>Ven,<br>pide,<br><em>repite.</em></h2>
+      <div class="cinfo-list">
+        <div class="cinfo-row">
+          <span class="cinfo-l">Direccion</span>
+          <span class="cinfo-v">Tu direccion aqui, Bogota</span>
+        </div>
+        <div class="cinfo-row">
+          <span class="cinfo-l">Horario</span>
+          <span class="cinfo-v">Lun–Vie: 12pm – 10pm<br>Sab–Dom: 11am – 11pm</span>
+        </div>
+        <div class="cinfo-row">
+          <span class="cinfo-l">Instagram</span>
+          <span class="cinfo-v">@tu.restaurante</span>
+        </div>
+      </div>
+    </div>
+    <div class="contact-cta reveal" style="transition-delay:.2s">
+      <div class="cta-card">
+        <div class="cta-title">Haz tu pedido ahora</div>
+        <p class="cta-desc">Escribenos por WhatsApp y te respondemos al momento.</p>
+        <button class="btn-wa" id="btnWhatsapp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.859L.057 23.7a.75.75 0 00.92.92l5.841-1.476A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.698-.504-5.243-1.385l-.374-.217-3.876.98.998-3.762-.237-.389A9.961 9.961 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+          </svg>
+          Escribir por WhatsApp
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-logo">Don Burguer<span>.</span></div>
+    <p class="footer-sub">Street Food Gourmet · Bogota, Colombia</p>
+    <p class="footer-credit">Sitio web disenado por Raul Chaparro · raulchape03@gmail.com</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
